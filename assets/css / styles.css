@@ -229,7 +229,7 @@ li {
 
 #core-feat-are {
     background-color: var(--gray);
-    padding: 7rem;
+    padding: 6rem;
 }
 
 #core-feat-are .container {
@@ -237,17 +237,58 @@ li {
     flex-direction: column;
 }
 
+.header-text {
+    padding: 0 15rem 3rem 15rem;
+}
+
 #core-feat-are h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--blue);
     font-weight: 400;
-    
     text-align: center;
-
     margin-bottom: 1rem;
 }
 
+#core-feat-are h1 {
+    color: var(--black);
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+#core-feat-are p {
+    color: var(--light-black);
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.core-grade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .fas {
+    font-size: 3rem;
+}
+
+.card h4 {
+    margin: 1rem 0;
+}
 
 
 
