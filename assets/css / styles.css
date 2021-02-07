@@ -113,11 +113,8 @@ li {
 
 .hero-btn {
     margin: 50px 0px;
-   
     display: flex;
     margin-top: 1rem;
-    
-   
 }
 
 .hero-btn a {
@@ -131,70 +128,62 @@ li {
     margin-right: 1rem;
 }
 
-
-
-/* ABOUT AREA */
-
-#about-area {
+.section-duo {
     padding: 8rem;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#about-are .container {
+.section-duo .container {
     display: flex;
 }
 
-.about-content {
+
+.section-duo-content {
     padding-right: 5rem;
     width: 50%;
 }
 
-
-.about-content h3{
+.section-duo-content h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
     color: var(--blue);
     font-weight: 400;
-
     margin-bottom: 1rem;
 }
 
-.about-content h1 {
+.section-duo-content h1 {
     font-family: 'Nunito-Sans', sans-serif;
     color: var(--black);
     font-size: 2.2rem;
-
     margin-bottom: 2rem;
 }
 
-.about-content p {
+.section-duo-content p {
     color: var(--light-black);
     font-size: 1.08rem;
     margin-bottom: 1.5rem;
 }
 
-.about-content ul {
+.section-duo-content ul {
     margin: 2.5rem 0 4.5rem 0;
 }
 
-.about-content li i {
+.section-duo-content li i {
     color: var(--green);
     margin-right: 0.5rem;
     font-size: 0.6rem;
 }
 
-.about-content li {
-    
+.section-duo-content li {
     color: var(--black);
     font-size: 1.0rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
 }
 
-
-.about-btn {
+.section-duo-btn {
     background-color: var(--purple);
     padding: 1rem 2rem;
     font-size: 1.0rem;
@@ -202,11 +191,11 @@ li {
     color: var(--white);
 }
 
-.about-image {
+.section-duo-image {
     width: 50%;
 }
 
-.about-image img{
+.section-duo img {
     padding: 0;
     width: 100%;
     border-radius: 5px;
@@ -252,7 +241,6 @@ li {
     font-size: 1rem;
 }
 
-
 .core-grade {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -263,7 +251,6 @@ li {
     border-radius: 5px;
     padding: 2rem;
     margin: 1.5rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -278,60 +265,10 @@ li {
     margin: 1rem 0;
 }
 
-
 /*  VIDEO AREA */
-
-
-#video-area {
-    padding: 8rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#video-area .container {
-    display: flex;
-}
-
-.video-content {
-    
-    width: 50%;
-}
-
-
-.video-content h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
-    color: var(--blue);
-    font-weight: 400;
-
-    margin-bottom: 1rem;
-}
-
-.video-content h1 {
-    font-family: 'Nunito-Sans', sans-serif;
-    color: var(--black);
-    font-size: 2.2rem;
-
-    margin-bottom: 2rem;
-}
-
-.video-content p {
-    color: var(--light-black);
-    font-size: 1.08rem;
-    margin-bottom: 1.5rem;
-}
 
 .container-btn {
     margin-top: 5rem;
-}
-.video-btn {
-   
-    background-color: var(--purple);
-    padding: 1rem 2rem;
-    font-size: 1.0rem;
-    border-radius: 5px;
-    color: var(--white);
 }
 
 .video-play {
@@ -371,8 +308,7 @@ li {
 }
 
 .heading h5 {
-    font-size: 1.2rem;
-    
+    font-size: 1.2rem;  
 }
 
 .heading h3 {
@@ -392,8 +328,6 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 .form-group {
@@ -417,9 +351,6 @@ form{
     padding: 0.8rem 1rem;
     cursor: pointer;
 }
-
-
-
 
 /* RESPONSIVIDADE */
 
