@@ -7,15 +7,16 @@
   
 <p align="center">
   <a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#features">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#features">Ajustes e melhorias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies-used">Tecnologias Utilizadas</a>
 </p>
 
 <!-- Resultado -->
-![screenshot-127-0-0-1-5500-index-html-1612660935883](https://user-images.githubusercontent.com/51024246/107134800-1f27f580-68d4-11eb-94a4-b35bf8a3cd8d.png)
+<img src="/assets/imgs/project-screenshot.png" alt="Imagem de Projeto">
 
 
 <a id="about"></a>
+
 ## Sobre
 
 <strong>Mixito</strong> página estática de vendas, tendo como base uma coleção de templates encontrados no [Theme Forest](https://themeforest.net/).
@@ -24,13 +25,17 @@ Essa aplicação foi desenvolvida como parte integrante da Trilha <strong>Respon
 
 
 <a id="features"></a>
-## Características
 
-- Página Clean
-- Vídeo embutido
-- Responsividade
+### Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [x] Página Clean
+- [x] Vídeo embutido
+- [ ] Responsividade
 
 <a id="technologies-used"></a>
+
 ## Technologies Used
 
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -39,6 +44,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
 
 <a id="how-to-use"></a>
+
 ## Como utilizar
 
 - ### **Pré-requisitos**
@@ -55,6 +61,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 
 <a id="how-to-contribute"></a>
+
 ## Como contribuir
 
 - Fork este repositório,
