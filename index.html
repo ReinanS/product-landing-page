@@ -14,23 +14,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap" rel="stylesheet">
     <!-- Estilo local -->
     <link rel="stylesheet" href="assets/css / styles.css">
+    
 </head>
 
 <body>
     <header id="header">
-        <figure id="header-img">
-            <img src="/assets/imgs/logo.png">
+        <figure >
+            <img id="header-img" src="/assets/imgs/logo.png">
         </figure>
         <nav id="nav-bar">
             <ul>
                 <li>
-                    <a id="nav-link" class="active" href="#home">Home</a>
+                    <a class="nav-link" class="active" href="#hero-area">Home</a>
                 </li>
                 <li>
-                    <a id="nav-link" href="#features">Features</a>
+                    <a class="nav-link" href="#core-feat-are">Features</a>
                 </li>
                 <li>
-                    <a id="nav-link" href="#product">Product</a>
+                    <a class="nav-link" href="#video-area">Product</a>
                 </li>
             </ul>
         </nav>
@@ -155,7 +156,7 @@
     <section id="video-area" class="section-duo">
         <div class="container">
             <div class="video-play">
-                <iframe width="560" height="415" src="https://www.youtube.com/embed/clXBiR01kUM" frameborder="0"
+                <iframe id="video" width="560" height="415" src="https://www.youtube.com/embed/clXBiR01kUM" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
@@ -188,19 +189,19 @@
                         reiciendis, tempore commodi necessitatibus, laborum laudantium in.</p>
                 </div>
                 <div class="newsletter-form">
-                    <form>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
                         <div class="form-group">
-                            <input type="email" class="form-control" id="mc-email" name="mc-email"
+                            <input type="email" class="form-control" id="email" name="email"
                                 placeholder="Enter your email*">
                         </div>
-                        <button class="form-btn" type="submit">Subscribe Now</button>
+                        <input id="submit" class="form-btn" type="submit" ></input>
                     </form>
                 </div>
             </div>
             
         </div>
     </section>
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
